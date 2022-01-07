@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	char retry;    // 다시 시작할지 확인하기 위해 입력을 받는 문자 변수
 	system("mode con cols=60 lines=17");    // 콘솔창의 크기를 가로 60, 시로 17칸으로 조절
 	printInfo();    // 게임의 정보를 출력
-
+	
 	while (1)
 	{
 		if (_kbhit())    // 입력이 있으면 실행
